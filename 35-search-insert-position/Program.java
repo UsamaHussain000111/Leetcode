@@ -1,8 +1,8 @@
 // o (log n) solution using binary search
 public class Program {
-    public int searchInsert(int[] A, int target) {
+    public int searchInsert(int[] nums, int target) {
         int low = 0;
-        int high = A.length;
+        int high = nums.length;
         while(low < high) 
         {
             int mid = low + ( high - low ) / 2; // low<=mid, mid<high
