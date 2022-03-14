@@ -14,10 +14,11 @@ class Solution {
             else if(!p[i].equals(".") && !p[i].equals("") && !p[i].equals("..")){
                 stack.push(p[i]);
             }
-    }
+        }
 
-    List<String> list = new ArrayList(stack);
-    return "/" + String.join("/", list);
+        List<String> list = new ArrayList(stack);
+        
+        return "/" + String.join("/", list);
         
     }
 }
