@@ -1,4 +1,4 @@
-## [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 Medium
 
