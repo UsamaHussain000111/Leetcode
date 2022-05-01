@@ -1,5 +1,4 @@
-// that's not the best solution as it is not fulfilling the follow up, it's not o(1) space
-// it's just what I came up with at the first 45 mins
+// that's not the best solution as it is not fulfilling the follow up
 class Solution {
     public boolean backspaceCompare(String s, String t) {
         
