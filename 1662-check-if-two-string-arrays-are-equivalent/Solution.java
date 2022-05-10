@@ -1,3 +1,6 @@
+// not the optimal solution as the space complexity is linear and we are itreating through the whole array
+// for checking if w1 is equal to w2. check out @chloewlin solution for the optimal solution here:
+// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/discuss/967572/Java-4-pointers-and-Iterator-Solution-Doing-it-in-O(1)-space-is-the-trick
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         
