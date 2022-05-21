@@ -26,5 +26,3 @@ class Solution {
         
     }
 }
-
-// Runtime: 3 ms, faster than 71.17% , Memory Usage: 44.2 MB, less than 34.49%
