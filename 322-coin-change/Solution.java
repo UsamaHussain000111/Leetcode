@@ -20,5 +20,3 @@ class Solution {
         return dp[dp.length - 1] == Integer.MAX_VALUE ? -1 : dp[dp.length - 1];
     }
 }
-
-// Runtime: 16 ms, faster than 87.33% , Memory Usage: 41.7 MB, less than 93.15%
