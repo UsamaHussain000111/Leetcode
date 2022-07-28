@@ -4,19 +4,21 @@ class Solution {
         if(s.length() != t.length())
             return false;
         
-        int[] count = new int[26];
+        HashMap<Character , Integer> map = new HashMap<Character , Integer>();
         
-        for(int i = 0 ; i < s.length() ; i++){
+        for(char c : s.toCharArray()){
             
-            count[s.charAt(i) - 'a']++;
-            count[t.charAt(i) - 'a']--;
-            
+            map.put(c , map.getOrDefault( c , 0) + 1 ); 
         }
         
-        for(int i : count){
-            if(i != 0){
+        for(char c : t.toCharArray()){
+            
+            int curr = map.getOrDefault( c , 0 );
+            
+            if(curr == 0)
                 return false;
-            }
+            else
+                map.put(c , curr - 1);
         }
         
         return true;
