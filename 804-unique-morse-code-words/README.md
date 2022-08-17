@@ -24,10 +24,10 @@ Output: 2
 
 Explanation: The transformation of each word is:
 
--> "gin" -> "--...-."
--> "zen" -> "--...-."
--> "gig" -> "--...--."
--> "msg" -> "--...--."
+<p>"gin" -> "--...-."</p>
+<p>"zen" -> "--...-."</p>
+<p>"gig" -> "--...--."</p>
+<p>"msg" -> "--...--."</p>
 
 There are 2 different transformations: "--...-." and "--...--.".
 
