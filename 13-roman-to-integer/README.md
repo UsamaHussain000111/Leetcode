@@ -2,7 +2,7 @@
 
 Easy
 
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Roman numerals are represented by seven different symbols: <div style="background-color : #f7f9fa">I</div>, V, X, L, C, D and M.
 
 Symbol       Value
 
