@@ -7,7 +7,6 @@ Table: Employees
 Column Name | Type
 --- | --- 
 employee_id | int 
---- | ---
 name | varchar
 
 - employee_id is the primary key for this table.
