@@ -53,7 +53,7 @@ employee_id | salary
 Output: 
 
 employee_id
---- | --- 
+--- |
 1
 2
 
