@@ -5,8 +5,8 @@ Easy
 Table: Employees
 
 Column Name | Type
---- | --- 
-employee_id | int 
+--- | ---
+employee_id | int
 name | varchar
 
 - employee_id is the primary key for this table.
@@ -14,12 +14,10 @@ name | varchar
  
 Table: Salaries
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| employee_id | int     |
-| salary      | int     |
-+-------------+---------+
+Column Name | Type
+--- | --- 
+employee_id | int
+salary | int
 
 - employee_id is the primary key for this table.
 - Each row of this table indicates the salary of the employee whose ID is employee_id.
@@ -38,32 +36,26 @@ Input:
 
 Employees table:
 
-+-------------+----------+
-| employee_id | name     |
-+-------------+----------+
-| 2           | Crew     |
-| 4           | Haven    |
-| 5           | Kristian |
-+-------------+----------+
+employee_id | name
+--- | --- 
+2 | Crew
+4 | Haven
+5 | Kristian
 
 Salaries table:
 
-+-------------+--------+
-| employee_id | salary |
-+-------------+--------+
-| 5           | 76071  |
-| 1           | 22517  |
-| 4           | 63539  |
-+-------------+--------+
+employee_id | salary
+--- | --- 
+5 | 76071
+1 | 22517
+4 | 63539
 
 Output: 
 
-+-------------+
-| employee_id |
-+-------------+
-| 1           |
-| 2           |
-+-------------+
+employee_id
+--- | --- 
+1
+2
 
 Explanation: 
 
