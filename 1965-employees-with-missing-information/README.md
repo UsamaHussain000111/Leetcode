@@ -4,9 +4,11 @@ Easy
 
 Table: Employees
 
-Column Name | employee_id | name
---- | --- | ---
-Type | int | varchar
+Column Name | Type
+--- | --- 
+employee_id | int 
+--- | ---
+name | varchar
 
 - employee_id is the primary key for this table.
 - Each row of this table indicates the name of the employee whose ID is employee_id.
