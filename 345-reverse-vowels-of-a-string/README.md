@@ -1,4 +1,4 @@
-## 345. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+## [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 
 Easy
 
@@ -21,5 +21,4 @@ Output: "leotcede"
 Constraints:
 
 - 1 <= s.length <= 3 * 105
-
 - s consist of printable ASCII characters.
