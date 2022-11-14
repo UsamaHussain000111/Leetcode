@@ -12,14 +12,14 @@ Given a ***shuffled sentence*** ```s``` containing no more than 9 words, reconst
 
 ***Example 1:***
 
-<strong>Input:</strong> s = "is2 sentence4 This1 a3"
-<strong>Output:</strong> "This is a sentence"
+<strong>Input:</strong> s = "is2 sentence4 This1 a3"<br>
+<strong>Output:</strong> "This is a sentence"<br>
 <strong>Explanation:</strong> Sort the words in s to their original positions "This1 is2 a3 sentence4", then remove the numbers.
 
 ***Example 2:***
 
-<strong>Input:</strong> s = "Myself2 Me1 I4 and3"
-<strong>Output:</strong> "Me Myself and I"
+<strong>Input:</strong> s = "Myself2 Me1 I4 and3"<br>
+<strong>Output:</strong> "Me Myself and I"<br>
 <strong>Explanation:</strong> Sort the words in s to their original positions "Me1 Myself2 and3 I4", then remove the numbers.
 
 
