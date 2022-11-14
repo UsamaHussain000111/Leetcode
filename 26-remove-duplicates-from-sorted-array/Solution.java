@@ -1,17 +1,14 @@
-class Solution {
-    public String sortSentence(String s) {
-        
-        String[] words = s.split(" ");
-        String[] res = new String[words.length];
-        
-        int i = 0;
-        
-        for(String word : words){
-
-            i = word.length() - 1;
-            res[word.charAt(i) - '1'] = word.substring(0 , i);
+public class Solution {
+    public int removeDuplicates(int[] nums) {
+        int j = 1;
+        for(int i = 0; i < nums.length - 1 ; i++)
+        {
+            if(nums[i] != nums[i + 1])
+            {
+                nums[j] = nums[i + 1];
+                j++;
+            }
         }
-        
-        return String.join(" ", res);
+        return j;
     }
 }
