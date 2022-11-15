@@ -10,7 +10,7 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 ***Example 1:***
 
-![alt text](https://leetcode.com/problems/count-complete-tree-nodes/)
+![alt text](https://assets.leetcode.com/uploads/2021/01/14/complete.jpg)
 
 <strong>Input:</strong> root = [1,2,3,4,5,6]<br>
 <strong>Output:</strong> 6<br>
