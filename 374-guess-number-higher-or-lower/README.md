@@ -16,8 +16,6 @@ You call a pre-defined API ```int guess(int num)```, which returns three possibl
 
 ***Example 1:***
 
-![alt text](https://assets.leetcode.com/uploads/2021/01/14/complete.jpg)
-
 <strong>Input:</strong> n = 10, pick = 6<br>
 <strong>Output:</strong> 6<br>
 
