@@ -1,4 +1,4 @@
-## [263. Ugly Number](https://leetcode.com/problems/ugly-number/)
+## [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 $\color[RGB]{239,108,0} Medium$
 
