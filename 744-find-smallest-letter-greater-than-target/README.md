@@ -15,15 +15,11 @@ Return the smallest character in ```letters``` that is lexicographically greater
 
 ***Example 2:***
 
-![alt text](https://assets.leetcode.com/uploads/2020/06/10/screen-shot-2020-06-10-at-123843-pm.png)
-
 <strong>Input:</strong> letters = ["c","f","j"], target = "c"<br>
 <strong>Output:</strong> "f"<br>
 <strong>Explanation:</strong> The smallest character that is lexicographically greater than 'c' in letters is 'f'.<br>
 
 ***Example 3:***
-
-![alt text](https://assets.leetcode.com/uploads/2020/06/10/screen-shot-2020-06-10-at-123843-pm.png)
 
 <strong>Input:</strong> letters = ["x","x","y","y"], target = "z"<br>
 <strong>Output:</strong> "x"<br>
