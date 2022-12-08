@@ -1,4 +1,4 @@
-## [938. Range Sum of BST](https://leetcode.com/problems/leaf-similar-trees/description/)
+## [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)
 
 Easy
 
