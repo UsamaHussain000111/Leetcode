@@ -1,6 +1,7 @@
 // basically , its a fibonacci series
-// why its a fibonacci series? to find out refer to the following videos:
+// why its a fibonacci series? to find out refer to the following video:
 // https://www.youtube.com/watch?v=Y0lT9Fck7qI (neetcode)
+// another solution using dp
 // https://www.youtube.com/watch?v=uHAToNgAPaM (kevin) (using dp)
 //  https://www.youtube.com/watch?v=5o-kdjv7FD0 (cs dojo) (using dp)
 
