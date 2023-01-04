@@ -13,7 +13,7 @@ class Solution {
             if(freq == 1)
                 return -1;
 
-                count += (freq + 2) / 3;
+            count += (freq + 2) / 3;
         }
 
         return count;
