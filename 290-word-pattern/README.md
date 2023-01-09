@@ -1,6 +1,6 @@
-## [134. Gas Station](https://leetcode.com/problems/gas-station/description/)
+## [290. Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 
-Medium
+Easy
 
 Given a pattern and a string s, find if s follows the same pattern.
 
