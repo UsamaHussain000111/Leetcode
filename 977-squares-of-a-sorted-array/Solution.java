@@ -1,6 +1,6 @@
-// two pointer approach because the given array is already sorted
-class Solution {
-    public int[] sortedSquares(int[] nums) {
+class Solution{
+
+    public int[] sortedSquares(int[] nums){
         
         int[] res = new int[nums.length];
         int low = 0;
@@ -9,9 +9,11 @@ class Solution {
         for(int i = nums.length - 1 ; i >= 0 ; i--){
             
             if(Math.abs(nums[low]) > Math.abs(nums[high])){
+                
                 res[i] = nums[low] * nums[low];
                 low++;
-            } else {
+            }else{
+
                 res[i] = nums[high] * nums[high];
                 high--;
             }
@@ -20,3 +22,4 @@ class Solution {
         return res;
     }
 }
+

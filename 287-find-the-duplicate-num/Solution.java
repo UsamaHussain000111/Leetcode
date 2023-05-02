@@ -1,15 +1,32 @@
-class Solution {
-    public int findDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        for(int i = 1 ; i < nums.length ; i++){
-            if(nums[i] == nums[i - 1]){
-                return nums[i];
+class Solution{
+    
+    public int findDuplicate(int[] nums){
+          
+        int low = 1, high = nums.length - 1;
+        int duplicate = -1;
+        
+        while(low <= high){
+
+            int cur = (low + high) / 2;
+            int count = 0;
+
+            for(int num : nums){
+
+                if(num <= cur)
+                    count++;
+            }
+            
+            if(count > cur){
+
+                duplicate = cur;
+                high = cur - 1;
+
+            }else{
+                low = cur + 1;
             }
         }
         
-        return 0;
+        return duplicate;
     }
 }
 
-// time complexity O (n log n)  
-// space complexity O (n)
