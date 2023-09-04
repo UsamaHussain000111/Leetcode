@@ -22,4 +22,5 @@ var twoSum = function(nums, target) {
     throw InvalidArgumentException("Inavlid input");
 };
 
-// Runtime 61 ms Beats 87.17% Memory 43.8 MB Beats 16.69%
+// Runtime: 61 ms Beats 87.17%
+// Memory: 43.8 MB Beats 16.69%

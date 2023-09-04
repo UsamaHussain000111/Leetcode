@@ -11,15 +11,13 @@ class Solution {
     function twoSum($nums, $target) {
 
         $map = [];
-        $len = count($nums);
 
-        for($i = 0 ; $i < $len ; $i++){
+        for($i = 0 ; $i < count($nums) ; $i++){
 
             $complement = $target - $nums[$i];
 
-            if(array_key_exists($complement , $map)){
+            if(isset($map[$complement]))
                 return [ $map[$complement] , $i ];
-            }
 
             $map[$nums[$i]] = $i;
         }
@@ -28,4 +26,5 @@ class Solution {
     }
 }
 
-// Runtime 13 ms Beats 94.21% Memory 20.2 MB Beats 23.26%
+// Runtime: 4 ms Beats 99.89% of users with PHP
+// Memory: 20.12 MB Beats 21.31% of users with PHP
