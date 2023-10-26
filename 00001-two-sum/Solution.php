@@ -5,9 +5,9 @@ declare(strict_types=1);
 class Solution {
 
     /**
-     * @param array $nums
+     * @param array<int> $nums
      * @param int  $target
-     * @return array
+     * @return array<int>
      */
     function twoSum(array $nums, int $target): array {
 
