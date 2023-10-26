@@ -1,13 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 class Solution {
 
     /**
-     * @param String $word1
-     * @param String $word2
-     * @return String
+     * @param string $word1
+     * @param string $word2
+     * @return string
      */
-    function mergeAlternately($word1, $word2) {
+    function mergeAlternately(string $word1, string $word2): string {
 
         $len = max(strlen($word1), strlen($word2));
         $res = '';
