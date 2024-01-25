@@ -14,19 +14,17 @@ class Solution {
         $len = count($nums);
         $map = [];
 
-        for($i = 0; $i < $len; $i++) {
+        for ($i = 0; $i < $len; $i++) {
 
             $complement = $target - $nums[$i];
 
-            if(isset($map[$complement])) {
+            if (isset($map[$complement])) {
 
                 return [$map[$complement], $i];
             }
 
             $map[$nums[$i]] = $i;
         }
-
-        throw new InvalidArgumentException("Invalid Input");
     }
 }
 
