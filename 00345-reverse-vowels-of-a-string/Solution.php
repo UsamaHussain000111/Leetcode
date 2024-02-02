@@ -24,25 +24,26 @@ function isVowel(string $c): bool {
 }
 
 class Solution {
-
     /**
      * @param string $s
      * @return string
      */
-    function reverseVowels(string $s): string {
+    public function reverseVowels(string $s): string {
         $l = 0;
         $r = strlen($s) - 1;
         $arr = str_split($s);
 
         while($l < $r) {
 
-            if(isVowel($arr[$l]) && isVowel($arr[$r])) {
+            if (isVowel($arr[$l]) && isVowel($arr[$r])) {
                 swap($arr, $l, $r);
                 $l++;
                 $r--;
-            }else if(isVowel($arr[$l])) {
+            }
+            elseif (isVowel($arr[$l])) {
                 $r--;
-            }else {
+            }
+            else {
                 $l++;
             }
         }
